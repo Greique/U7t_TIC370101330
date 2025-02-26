@@ -53,3 +53,6 @@ Este sistema de automação permite o controle de movimentação para setores es
 
 Este sistema permite a automação eficiente do transporte de peças dentro do estoque, reduzindo erros e custos aumentando a produtividade.
 
+## Video do projeto ##
+
+https://drive.google.com/file/d/1sXVEDODd1OoDo4BQjpkO-4d4xez635lz/view?usp=sharing
