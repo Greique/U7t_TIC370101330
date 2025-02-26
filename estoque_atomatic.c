@@ -156,6 +156,7 @@ void beep(uint pin, uint duration_ms) {
      // Aguarda 5 segundos e apaga o LED da matriz
      sleep_ms(5000);
      exibir_numero(0, pio, sm, 0.0, 0.0, 0.0);
+
      ssd1306_fill(&sistema.ssd, false);
      ssd1306_draw_string(&sistema.ssd, "PRODUTO ACEITO", 10, 20);
      ssd1306_send_data(&sistema.ssd);
@@ -216,7 +217,7 @@ void beep(uint pin, uint duration_ms) {
                 ssd1306_draw_string(&sistema.ssd, "INVALIDO", 10, 20);
                 ssd1306_send_data(&sistema.ssd);
                 beep(BUZZER_PIN, 300);
-                exibir_numero(1, pio, sm, 0.0, 0.5, 0.0);
+                exibir_numero(0, pio, sm, 0.0, 0.5, 0.0);
                 contador = 0;
                 memset(entrada, 0, sizeof(entrada));  // Limpa o buffer
                 continue;
